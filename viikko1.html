@@ -1,0 +1,50 @@
+<!-- Jokaisen HTML tiedoston pitää alkaa DOCTYPE elementillä-->
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Viikko X - Oppimispäiväkirja</title>
+    <script type="module" src="./assets/components/html-css-viewer.js"></script>
+    <style>
+      body {
+        background-color: beige;
+      }
+    </style>
+</head>
+<body>
+    <h1>Viikko 1: Oppimispäiväkirja</h1>
+    <p>
+      Lataa koodiesimerkkejä varten tehty komponentti <a href="./assets/components/html-css-viewer.js">täältä</a> ja fontti <a href="./assets/fonts/FontWithASyntaxHighlighter-Regular.woff2">täältä</a>
+    </p>
+    <h2>Tällä viikolla opin:</h2>
+    <ul>
+        <li>
+          Sivujen (esimerkiksi tämän sivun) lähdekoodin voi nähdä esim. kirjoittamalla <code>view-source:</code> sivun URLin alkuun.
+        </li>
+        <li>[Asia 2]</li>
+        <li>[Asia 3]</li>
+    </ul>
+    
+    Tässä on koodiesimerkki:
+    <html-css-viewer preview>
+      <template>
+        <style>
+          .example { 
+            color: red; 
+          }
+        </style>
+        <div class="example">
+          Hei, maailma!
+        </div>
+      </template>
+    </html-css-viewer>
+    
+    <h2>Reflektio:</h2>
+    <p>[Reflektoi oppimaasi, sekä pohdi viikon aikana käsiteltyjä asioita]</p>
+    
+    <nav>
+        <a href="viikkoX-1.html">← Edellinen viikko</a> |
+        <a href="viikkoX+1.html">Seuraava viikko →</a>
+    </nav>
+</body>
+</html>
