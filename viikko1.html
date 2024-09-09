@@ -1,46 +1,83 @@
 <!-- Jokaisen HTML tiedoston pitää alkaa DOCTYPE elementillä-->
 <!DOCTYPE html>
 <html lang="fi">
+
+
 <head>
     <meta charset="UTF-8">
     <title>Viikko X - Oppimispäiväkirja</title>
     <script type="module" src="./assets/components/html-css-viewer.js"></script>
+
+
+
     <style>
       body {
-        background-color: beige;
+        max-width: 50vh;
+        margin-left: 160px;
+        margin-top: 100px;
       }
+
+
     </style>
+
+
+
+
+
+
 </head>
+
+
+
+
+
 <body>
-    <h1>Viikko 1: Oppimispäiväkirja</h1>
+    
+
+  <p>
+    <h1> Oppimispäiväkirja </h1>
+  </p>
+
+
     <p>
-      Lataa koodiesimerkkejä varten tehty komponentti <a href="./assets/components/html-css-viewer.js">täältä</a> ja fontti <a href="./assets/fonts/FontWithASyntaxHighlighter-Regular.woff2">täältä</a>
+      <h2> Viikko 1 </h2>
     </p>
-    <h2>Tällä viikolla opin:</h2>
-    <ul>
-        <li>
-          Sivujen (esimerkiksi tämän sivun) lähdekoodin voi nähdä esim. kirjoittamalla <code>view-source:</code> sivun URLin alkuun.
-        </li>
-        <li>[Asia 2]</li>
-        <li>[Asia 3]</li>
-    </ul>
+
+    <p>
+      <h3>02.09</h3>
+      Koe: Koodi kurssin ensimmäisellä tunnilla keskiviikkona keskustelimme yleisesti siitä, miksi olimme valinneet kyseisen kurssin. 
+      Lähdin itse kurssille mukaan, koska koodaus, internet ja yleisesti digitaalinen suunnittelu kiinnostaa minua eniten. 
+      Käsittelimme myös yleisiä fiiliksiä ja suhdettamme internettiin, kuten esim. ahdistaako tekoälyn kehitys tai netin ympäristöjen kaupallistuminen. 
+
+      Omalla kohdaltani tuli mieleen ainakin se huomio, kuinka vuosien varrella internetissä toimivat palveluiden määrä on keskittynyt isompien yrityksien haltuun. 
+      Ennen netti oli täynä aktiivisia foorumeja, kun taas nykyään monesti iso osa keskusteluista käydään Redditin palstoilla.
+      Tavallaan samanaikaisesti voi tuntua kätevältä jonkin ison yrityksen palvelu on kaikilla käyttäjillä käytössä, mutta siinäkin on ongelmansa. 
+      Iso toimija voi runnoa läpi muutoksia palvelun käytäntöihin miten huvittaa, eikä käyttäjillä ole vaihtoehtoisia paikkoja mihin siirtyä protestina. 
+      Keskustelun aiheena oli myös kesällä tapahtunut CrowdStrike:n globaali softapäivitys, joka sai tietoliikenteen jumin eri puolilla maailmaa.
+    </p>
+
+    <p>
+      <h3>03.09</h3>
+      Torstaina syvennyimme tietokoneiden ja internetin toimintaan. Henkilökohtaiseksi tuntuu siltä, että useat nettiin liittyvät termin on kuullut selitettävän auki moneen kertaan (HTML, HTTP jne), mutta en siltikään muista niitä, joten oli hyödyllistä kerrata.
+      Opin Webin ja WWW:n erosta eli käytännössä web on laajempi kokonaisuus internetin toiminnoista, johon kuuluu mm. sähköposti, some ja WWW. 
+      Edellä mainittu WWW tarkoittaa vain HTML -dokumentteja, jotka linkittyvät toisiinsa HTTP protokollalla. 
+      Protokolla on siis vain käytännössä sääntöjä, joiden avulla lähettäjät ja vastaanottajat pystyvät kommunikoimaan verkon kautta. 
+
+      Oli havainnollistavaa verrata internetin toimintalogiikkaa postin toimintatapaan. Meillä on lähettäjä, vastaanottaja ja keskellä toimiva postipalvelu eli internet palveluntarjoaja. IP-osoite on kuin postiosoite, joka kertoo datan päämäärän. 
+
+    </p>
+
+    <p>
+      <h3>04.09</h3>
+      Perjantaina päästiin vihdoin käytännön hommiin ja pystytimme git.hubin palvelimelle HTML oppimispäiväkirjan. 
+      Ensimmäiset fiilikset html:n ja css:n kanssa työskentelystä olivat mielenkiintoisia! 
+      Yllätyin kuinka helppoa oli päästä kiinni perusperiaatteisiin, mutta samalla vaikuttaa siltä, että aiheessa riittää syventymistä. 
+      Menee kyllä myös varmaan hetki, kunnes muistaa ulkoa oleellisimmat koodinpätkät, mutta itselle olennainen osa työskentely on aina ollut googlailla apua jos jokin ei suju!
+
+    </p>
+
+
     
-    Tässä on koodiesimerkki:
-    <html-css-viewer preview>
-      <template>
-        <style>
-          .example { 
-            color: red; 
-          }
-        </style>
-        <div class="example">
-          Hei, maailma!
-        </div>
-      </template>
-    </html-css-viewer>
-    
-    <h2>Reflektio:</h2>
-    <p>[Reflektoi oppimaasi, sekä pohdi viikon aikana käsiteltyjä asioita]</p>
     
     <nav>
         <a href="viikkoX+1.html">Seuraava viikko →</a>
