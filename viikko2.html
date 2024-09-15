@@ -1,72 +1,96 @@
 <!-- Jokaisen HTML tiedoston pitää alkaa DOCTYPE elementillä-->
 <!DOCTYPE html>
-<!-- HTML elementti on HTML dokumentin juuri elementti-->
-<html lang =    "fi">
+<html lang="fi">
+
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title> Vikko 1 Oppimispäiväkirja</title>
-    <style>
-        img {
-            display:block;
-            width: 100%;
-            margin: 0 auto;
-          }
-        .koira2 {
-                display:inline;
-          }
-        body {
-            width:100%;
-            margin: 0 auto;
-        }
-        div {
-        background: linear-gradient(salmon,lightblue,salmon);
-        padding: 10px;
-        }
-        div.tausta2 {
-        background: aqua !important;
-        }
-        
+    <title>Viikko 2 - Oppimispäiväkirja</title>
+    <script type="module" src="./assets/components/html-css-viewer.js"></script>
 
-      </style>
+
+
+    <style>
+      body {
+        max-width: 50vh;
+        margin-left: 160px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: rgb(254, 189, 20);
+      }
+    </style>
+
 </head>
 
+
+
+
+
 <body>
-    <div>
-    <h1> Viikko 1 </h1>
-    <h2> Oppimispäiväkirja </h2>
-    <h3> HTML perusteet </h3>
-    </div>
-    <p>  Tässä on opittu HTML <br> alkeita </p>
-    <button>
-    räjäytä internet
-    </button>
-    <img class= "koira1" src="./assets/img/koe_koira.jpg"> 
-    <a href="https://hlotvonen.github.io/koe-koodi24/">
-        kurssin kotisivut </a>
+    
+
+  <p>
+    <h1> Oppimispäiväkirja </h1>
+  </p>
 
 
- <!-- unordered list -->       
-  <div class="tausta2">
- <h3> Mun lempi HTML elementit </h3>
-<ul>
-    <li> H1-H6 Tagit on otsikoille
-    <li> p tagi on leipätekstille  
-    <li> Mikä on WWW ja Netin ero   
-    <img class = "koira2" src="./assets/img/koe_koira.jpg"> 
+    <p>
+      <h2> Viikko 2 </h2>
+    </p>
 
-</ul>
-</div>
-<!-- Ordered list -->
-<h3> Mun lempi HTML elementit </h3>
-<ol>
-    <li> Toinen lista
-    <li> Toinen lista
-    <li> Toinen lista        
+    <p>
+      <h3>11.09</h3>
+      Kurssin toinen viikko tuntui hurahtavan ohi todella nopeasti. 
+      Käsittelimme keskiviikkona syntaksia eli sitä miten elementit, ominaisuudet ja tyylit kirjoitetaan koodilla. Laitoimme tagin sisälle attribuutti nimellä “grid”, jonka kautta voimme css:n avulla luoda tyylejä kyselle tag tyylille, jolla on attribute “grid”. Esimerkiksi jos nyt kirjotamme .grid color:blue; niin elementit, jolla on attribuutti “grid” muuttuvat sinikseksi. 
+    </p>
 
-</ol>
+    <p>
 
+      Havannoillistin asiaa itselleni seuraavasti: 
+
+      <ol>
+        <li> Attribute, eli määritys (Haluan määrittää elementille jonkin uuden ominaisuuden) </li>
+        <li> Class attribute eli luokan määritys (Määritän elementin osaksi luokkaa, jolla on tietyt tyylit) </li>
+        <li> Nimi (Millä nimellä viittaamme kyseiseen luokkaan CSS:ssä) </li>
+      </ol>
+    </p>
+
+    <p>
+      Kävimme myös läpi valitsimet eli selectors, joiden avulla voimme lisätä tyylejä tiettyihin HTML elementteihin. Lisäksi käsittelimme selectorien (valitsimien) ja classien (luokkien) hierarkiaa. Koska jos vaikkapa meillä on määritelty elementille jokin tyyli, niin sen sisällä voi olla valitsin, jolle on myös määritelty oma tyylinsä. Edellä mainittuu liittyy Cascade eli käytännössä hierarkia, jonka perusteella tiedämme mitä tyyliä käytämme. Hierarkia menee seuraavasti: ID > CLASS > TYPE SELECTORS > BROWSER. 
+    </p>
+
+    <p>
+      <h3>12.09</h3>
+      Torstainan demosta en tajunnu ihan hirveesti, pitääpä kerrrata jossain vaiheessa itsenäisesti ¯\_(ツ)_/¯ . 
+
+      <p>
+      Jatkoin iltapäivällä itsenäisellä työskentelyllä. Keskityin pääosin inspiraation hankkimiseen neocities nettisivuja kahlaten. Koitin lähinnä selventää omaa käsitystä siitä, mitä ehkä voisin omalla nettisivullani tehdä. On ollut inspiroivaa löytää Neocitiesistä todella persoonallisia nettisivuja, kun muuten nettisivut suunnitellaan nykypäivänä pitkälti tiettyjen vallitsevien sääntöjen mukaisesti. 
+      </p>
+      Seuraavaksi lähdin jo miettimään omaa konseptiani tehtävään ja ekat ideat olivat jonkinnäköinen avaruusseikkailu ja nettisivu, jossa heitetään kolikko suihkulähtääseen, jonka jälkeen esitetään toivomus. 
+      Unohdin ehkä hieman, että tehtävässä oli tarkoitus myös tulkita jotain painomateriaalia digitaalisessa muodossa.
+    </p>
+
+
+
+
+    <p>
+      <h3>13.09</h3>
+      Perjantaina esittelimme ryhmällemme omat ideamme. Esittely meni ihan hyvin, mutta en oikeen ollut vielä varma mistään konseptista. Avaruuseikkailu ois ollu magee, mutta liian työläs toteutettavaksi kurssin raameissa. Kolikonheitto -konsepti taas olisi helpompi toteuttaa, mutta en jotenkin innostunut siitä. Lähdin siis iltapäivällä pohtimaan vielä jotain uutta ideaa. 
+    </p>
+
+    <p>
+      Olin aikaisemmin lukenut, että mistä kolikoiden heittäminen suihkulähteisiin on peräisin ja inspiroiduin sitä kautta tekemään jotain roomalaisella teemalla. Muistin, että olin nähnyt roomalaisten aikaisia graffiteja. Tuli mieleen lähinnä nykypäivän jodel. Tästä keksin, että tekisin nettiin somepalvelun tai keskusteluforuumin roomalaisten graffiteista. 
+
+    </p>
+
+    <p>
+      Ideassa jäi vielä mietityttämään, että miten saisin vielä tuotua jotain kokeellista tai outoa aspektia nettisivujen toteutukseen. Tuli ainakin mieleen, että mitä jos olisi rinnakkain nykysome ja sit roomalaisten graffitit. Tai, että sivun jossain alareunassa olisi pieni repeymä, josta klikkaamalla paljastuisi nykypäivän some. Tai, että keskustelisiko roomalaiset ja nykypäivän somettajat keskenään.
+    </p>
+    
+
+    <nav>
+      <a href="viikko1.html">← Edellinen viikko</a> |
+      <a href="viikko3.html">Seuraava viikko →</a>
+  </nav>
 </body>
-
-
 </html>
