@@ -12,16 +12,36 @@
 
     <style>
       body {
-        max-width: 80vh;
-        margin-left: 160px;
-        margin-top: 100px;
-        margin-bottom: 100px;
+    
         background-color: rgb(254, 189, 20);
       }
 
 
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 400px;
+        padding-right: 400px;
+        margin-bottom: 50px;
+
+
+      }
+
+      .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 100px;
+
+      }
+
+
 img {
-  width: 600px;
+  width: 735px;
 
 
 }
@@ -33,7 +53,7 @@ img {
 
 <body>
     
-
+<div class="container"> 
   <p>
     <h1> Oppimispäiväkirja </h1>
   </p>
@@ -68,9 +88,14 @@ img {
    <p> Lopuksi opin, että varmuuskopiot ja versionhallinnta ovat äärimmäisen tärkeitä. Sillä itselläni kävi yhdessä kohtaa niin, että muutin sitä sun tätä koodissa ja yhtäkkiä layouttini alkoi hajoilemaan todella pahasti, enkä saanut sitä helposti korjattua. Jouduin poistamaan osia koodistani ja copypasteemaan niitä jostain varhaisesta versiosta uusiksi, vaikka tämä tarkoittikin osittaista työn menetystä. Perjantai-iltapäivällä aloin olemaan sen verran väsynyt koodin kanssa sählätessä, että ei tehnyt enää mieli edistää projektia eteenpäin ja tuntui siltä, että jos muutan jotain niin, jokin toinen asia hajoaa. Tää taitaa olla myös joku vitsi ohjelmoinnin keskuudessa, korjaat yhden bugin ja kohta sulla on kolme uutta bugia. </p>
     
 
-    <nav>
-      <a href="viikko3.html">← Edellinen viikko</a> |
-      <a href="viikko5.html">Seuraava viikko →</a>
-  </nav>
+
+
+</div>  
+
+<nav class="navigation">
+  <a href="viikko3.html">← Edellinen viikko</a> |
+  <a href="viikko5.html">Seuraava viikko →</a>
+</nav>
+
 </body>
 </html>
